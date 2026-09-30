@@ -12,10 +12,11 @@ st.header("Live Weather/Conditions")
 st.write(data)
 
 
-soil_moisture = data["field1"]
-temperature = data["field2"]
-humidity = data["field3"]
 
-st.metric("Soil Moisture: ", f"{float(soil_moisture):.1f} %")
-st.metric("Temperature: ", f"{float(temperature):.1f} degrees F")
-st.metric("Humidity: ", f"{float(humidity):.1f} %")
+###soil_moisture = data["field1"]
+###temperature = data["field2"]
+####humidity = data["field3"]
+
+###st.metric("Soil Moisture: ", f"{float(soil_moisture):.1f} %")
+###st.metric("Temperature: ", f"{float(temperature):.1f} degrees F")
+###st.metric("Humidity: ", f"{float(humidity):.1f} %")
