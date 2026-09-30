@@ -10,7 +10,7 @@ channelid = "3513439"
 st.header("Live Weather/Conditions")
 
 soil_moisture = data["field1"]
-temperature = data["field2"
+temperature = data["field2"]
 humidity = data["field3"]
 
 st.metric("Soil Moisture: ", f"{float(soil_moisture):.1f} %")
