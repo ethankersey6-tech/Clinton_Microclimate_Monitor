@@ -4,8 +4,9 @@ import requests
 st.title("Clinton Microclimate Monitor")
 st.write("Real-time atmospheric data local to rural Indiana")
 
-url = (f"https://api.thingspeak.com/channels/{channelid}/feeds/last.json")
 channelid = "3513439"
+url = (f"https://api.thingspeak.com/channels/{channelid}/feeds/last.json")
+
 
 st.header("Live Weather/Conditions")
 
