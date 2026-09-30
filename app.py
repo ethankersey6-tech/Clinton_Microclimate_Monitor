@@ -7,7 +7,7 @@ st.write("Real-time atmospheric data local to rural Indiana")
 channelid = "3513439"
 url = (f"https://api.thingspeak.com/channels/{channelid}/feeds/last.json")
 
-
+data = requests.get(url).json()
 st.header("Live Weather/Conditions")
 
 soil_moisture = data["field1"]
